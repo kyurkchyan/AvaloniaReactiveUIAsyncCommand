@@ -10,7 +10,7 @@ public partial class MainPage
     public MainPage()
     {
         InitializeComponent();
-        this.BindingContext = new MainViewModel();
+        BindingContext = new MainViewModel();
         this.WhenActivated(disposables =>
         {
             this.WhenAnyObservable(v => v.ViewModel!.LoadCommand.IsExecuting)
