@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<maui:ReactiveContentPage
+    x:TypeArguments="viewModels:MainViewModel"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maui="clr-namespace:ReactiveUI.Maui;assembly=ReactiveUI.Maui"
+    xmlns:viewModels="clr-namespace:ViewModels;assembly=ViewModels"
+    x:Class="Maui.MainPage">
+
+    <Grid
+        ColumnDefinitions="*, *"
+        RowDefinitions="Auto,Auto,Auto"
+        Width="400"
+        VerticalOptions="Center"
+        HorizontalOptions="Center">
+        <Label
+            Grid.Row="0"
+            Grid.Column="0"
+            Text="Load command is busy:"
+            Margin="8"
+            HorizontalOptions="End"
+            VerticalTextAlignment="Center" />
+        <Label
+            Grid.Row="0"
+            Grid.Column="1"
+            x:Name="LoadCommandIsBusyLabel"
+            Margin="8"
+            HorizontalOptions="Start"
+            VerticalTextAlignment="Center" />
+        <Label
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="Load command is executable:"
+            Margin="8"
+            HorizontalOptions="End"
+            VerticalTextAlignment="Center" />
+        <Label
+            Grid.Row="1"
+            Grid.Column="1"
+            x:Name="LoadCommandIsExecutableLabel"
+            Margin="8"
+            HorizontalOptions="Start"
+            VerticalTextAlignment="Center" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            x:Name="LoadButton"
+            Margin="8"
+            Text="Load"
+            HorizontalOptions="Fill" />
+    </Grid>
+
+</maui:ReactiveContentPage>

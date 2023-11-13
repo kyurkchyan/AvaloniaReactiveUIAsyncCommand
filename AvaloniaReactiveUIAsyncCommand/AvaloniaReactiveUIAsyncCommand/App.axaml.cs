@@ -1,8 +1,8 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using AvaloniaReactiveUIAsyncCommand.ViewModels;
 using AvaloniaReactiveUIAsyncCommand.Views;
+using ViewModels;
 
 namespace AvaloniaReactiveUIAsyncCommand;
 
