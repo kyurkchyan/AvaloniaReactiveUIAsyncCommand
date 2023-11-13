@@ -1,0 +1,61 @@
+<reactiveUi:ReactiveUserControl
+    x:TypeArguments="vm:MainViewModel"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:AvaloniaReactiveUIAsyncCommand.ViewModels"
+    xmlns:reactiveUi="http://reactiveui.net"
+    mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+    x:Class="AvaloniaReactiveUIAsyncCommand.Views.MainView"
+    x:DataType="vm:MainViewModel">
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainViewModel />
+    </Design.DataContext>
+    <Grid
+        ColumnDefinitions="*, *"
+        RowDefinitions="Auto,Auto,Auto"
+        Width="400"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Center">
+        <TextBlock
+            Grid.Row="0"
+            Grid.Column="0"
+            Text="Load command is busy:"
+            Margin="8"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center" />
+        <TextBlock
+            Grid.Row="0"
+            Grid.Column="1"
+            x:Name="LoadCommandIsBusyTextBlock"
+            Margin="8"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center" />
+        <TextBlock
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="Load command is executable:"
+            Margin="8"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center" />
+        <TextBlock
+            Grid.Row="1"
+            Grid.Column="1"
+            x:Name="LoadCommandIsExecutableTextBlock"
+            Margin="8"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            x:Name="LoadButton"
+            Margin="8"
+            Content="Load"
+            HorizontalAlignment="Stretch"/>
+    </Grid>
+
+</reactiveUi:ReactiveUserControl>

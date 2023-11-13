@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaReactiveUIAsyncCommand", "AvaloniaReactiveUIAsyncCommand\AvaloniaReactiveUIAsyncCommand\AvaloniaReactiveUIAsyncCommand.csproj", "{D0B3ECAE-EDD6-4BBB-A33C-143B98A0DA4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaReactiveUIAsyncCommand.Desktop", "AvaloniaReactiveUIAsyncCommand\AvaloniaReactiveUIAsyncCommand.Desktop\AvaloniaReactiveUIAsyncCommand.Desktop.csproj", "{98AF2F44-A4B9-40D2-A538-1E5E96D8F4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaReactiveUIAsyncCommand.iOS", "AvaloniaReactiveUIAsyncCommand\AvaloniaReactiveUIAsyncCommand.iOS\AvaloniaReactiveUIAsyncCommand.iOS.csproj", "{EE2D4CDB-F730-47CE-964E-E29316E7FEDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Properties", "_Properties", "{FF144BF0-8C4E-4678-A8F0-F2DE66C33385}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.config = NuGet.config
+		AvaloniaReactiveUIAsyncCommand\Directory.Build.props = AvaloniaReactiveUIAsyncCommand\Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0B3ECAE-EDD6-4BBB-A33C-143B98A0DA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B3ECAE-EDD6-4BBB-A33C-143B98A0DA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B3ECAE-EDD6-4BBB-A33C-143B98A0DA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B3ECAE-EDD6-4BBB-A33C-143B98A0DA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AF2F44-A4B9-40D2-A538-1E5E96D8F4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AF2F44-A4B9-40D2-A538-1E5E96D8F4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AF2F44-A4B9-40D2-A538-1E5E96D8F4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AF2F44-A4B9-40D2-A538-1E5E96D8F4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2D4CDB-F730-47CE-964E-E29316E7FEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2D4CDB-F730-47CE-964E-E29316E7FEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2D4CDB-F730-47CE-964E-E29316E7FEDB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EE2D4CDB-F730-47CE-964E-E29316E7FEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2D4CDB-F730-47CE-964E-E29316E7FEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2D4CDB-F730-47CE-964E-E29316E7FEDB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
